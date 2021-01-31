@@ -70,7 +70,7 @@ function BookMeeting({Bookings, AddNweBookingAction, getBookingList}) {
       <div className = "row mt-3 w-100">
       <div className = "col col-sm-1"></div>
         <div className = "col col-sm-4 mx-auto w-100">
-        <p>Meeting Room Booking</p>
+        <p className = "bg-dark p-3 text-white" style = {{fontWeight:'bold', fontSize: '15px'}}>Meeting Room Booking</p>
         </div>
       </div>
       <div className = "row mt-1 w-100">
@@ -102,7 +102,7 @@ function BookMeeting({Bookings, AddNweBookingAction, getBookingList}) {
       <div className = "row mt-1 w-100">
       <div className = "col col-sm-1"></div>
         <div className = "col col-sm-4 mx-auto w-100">
-        <input type = "submit" value = "Countinue" className = "btn border text-white bg-info mt-3" onClick = {OnClickCountinue}/>
+        <input type = "submit" style = {{fontWeight:'bold', fontSize: '15px'}} value = "Continue >>" className = "btn border text-white bg-info mt-3" onClick = {OnClickCountinue}/>
         </div>
       </div> 
       
